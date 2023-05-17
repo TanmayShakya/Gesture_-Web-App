@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(139, 0, 139, 0.789);
+    color: white;
+}
+
+/* 
+#heading{
+    border-radius: 10px;
+    letter-spacing: 5px;
+    margin: 10px;
+    height: 100;
+    font-size: 25;
+} */
+
+#heading{
+    font-size: 18px;
+    border-radius: 10px;
+    letter-spacing: 10px;
+  }
+
+  #para{
+    font-size: 20px;
+  }
+
+  #emoji{
+    font-size: 25px;
+
+  }
+
+  /* #prediction{
+    font-size: 15px;
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    padding: 10px;
+    box-align:center;
+  } */
+
+  /* #webcam_view{
+    font-size: 20px;
+    color: green;
+    margin: 
+  } */
+  #camera ,#result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 350px; 
+}
+
+label{
+ 
+    font-size: 15px;
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    padding: 10px;
+  
+}
+
+#captured_image{
+  width: 350px;
+  height: 350px;   
+}
