@@ -36,7 +36,7 @@ function gotResult(error, result) {
         console.log(result);
         prediction = result[0].label;
         document.getElementById("resultArray").innerHTML = prediction;
-
+ speak()
         if(result[0].label == "Victory") {
             document.getElementById("emoji5").innerHTML = "&#9996;";
         }
@@ -53,3 +53,10 @@ function gotResult(error, result) {
     }
 }
 
+
+function speak(){
+    var synth = window.speechSynthesis;
+    var speak_data = "The Prediction Is " + prediction;
+    var utterance = new  SpeechSynthesisUtterance(speak_data) 
+  synth.speak(utterance);
+}
